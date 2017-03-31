@@ -1,0 +1,62 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #8ab4f7;
+	font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 1px 1px 1px #111;
+}
+
+hr {
+	margin: 0;
+}
+
+.chicken {
+	width: 100%;
+	background-color: #d0d0d0;
+	color: black;
+}
+
+#header-nav {
+	background-color: #d0d0d0;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	font-size: 1.2em;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #888;
+}
+
+#collapsible-nav {
+	background-color: #a0a0a0;
+	visibility: hidden;
+}
+
+#nav-list {
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+#nav-list li {
+	/*border: 1px solid black;*/
+	text-align: center;
+	padding: 3px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	background-color: #d0d0d0;
+	border: 0px;
+}
+
+@media (max-width: 767px) {
+
+	#collapsible-nav {
+	visibility: visible;
+	}
+
+}
